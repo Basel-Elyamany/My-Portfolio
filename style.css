@@ -246,6 +246,7 @@ header nav a:hover::after {
 		transform 0.3s ease,
 		box-shadow 0.3s ease;
 	border: 1px solid rgba(251, 194, 91, 0.1);
+	margin-bottom: 20px;
 }
 
 .project-card:hover {
@@ -353,7 +354,8 @@ footer {
 	border-radius: 1vw;
 	display: flex;
 	align-items: center;
-	gap: 15px;
+	gap: 15%;
+	width: 20%;
 	min-width: 250px;
 	border: 1px solid rgba(251, 194, 91, 0.1);
 	transition: all 0.3s ease;
@@ -366,7 +368,7 @@ footer {
 }
 
 .contact-card img {
-	width: 3vw;
+	width: max(23px,3vw);
 	filter: brightness(0) invert(1);
 	transition: filter 0.3s ease;
 }
@@ -380,7 +382,7 @@ footer {
 }
 
 .contact-text h5 {
-	font-size: 1.3vw;
+	font-size: max(12px, 1.3vw);
 	margin-bottom: 2px;
 	color: #fbc25b;
 }
@@ -391,7 +393,7 @@ footer {
 }
 
 .contact-text span {
-	font-size: 0.9vw;
+	font-size: max(10px, 0.9vw);
 	color: #e0e0e0;
 }
 
