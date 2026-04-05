@@ -406,8 +406,9 @@ footer {
 /* #region Responsiveness (Media Queries) */
 /* TABLETS (Max width 1024px) */
 @media screen and (max-width: 1024px) {
-	.skill-card {
-		width: 45%; /* Switch to 2 cards per row */
+	.skill-card,
+	.project-card {
+		width: 45%;
 	}
 
 	.hero-section {
@@ -471,7 +472,7 @@ footer {
 	}
 
 	.skill-card {
-		width: 90%; /* Single column for mobile */
+		width: 90%;
 		padding: 40px 20px;
 	}
 
@@ -486,6 +487,9 @@ footer {
 	}
 
 	/* Projects & Contact Adjustments */
+	.project-card {
+		width: 90%;
+	}
 	.project-info h5 {
 		font-size: 20px;
 	}
